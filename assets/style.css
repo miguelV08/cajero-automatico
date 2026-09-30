@@ -1,0 +1,186 @@
+h1, h6, p, h3 {
+    font-family: 'roboto', sans-serif;
+    display: block;
+    text-align: center;
+    line-height:.8;
+    font-weight: bold;
+    color: rgb(240, 240, 240);
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 20;
+    margin: 0;
+}
+
+.cuadro {
+    background-color: rgb(15, 13, 13);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position:absolute;
+    left: 20px;
+
+    width: 40px;
+    height: auto;
+}
+    
+.cuadro-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px);
+}
+
+.cuadro-centro {
+    background-color: #cbee05; 
+    width: 950px;             
+    height: 400px;   
+    border: 1px solid #161615;       
+    border-radius: 40px;        
+    box-shadow: 0 15px 30px rgba(130, 110, 0, 1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 20px;
+}
+
+.cuadro-centro input[type="number"]::-webkit-inner-spin-button,
+.cuadro-centro input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+h6{
+    font-size: 30px;
+    -webkit-text-stroke: 0.6px black;
+    font-weight: bold;
+}
+
+.input{
+  display: flex;
+    width: 50px;               
+    width: 50%;                
+    height: 40px;              
+    border: none;
+    outline: none;
+    border-radius: 20px;       
+    padding: 0 15px;           
+    font-size: 18px;  
+}
+
+p{
+    font-size: 14 px;
+    line-height: 1.2;
+    -webkit-text-stroke: 0.6px black;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 30px;
+    line-height: 1.2;
+    -webkit-text-stroke: 0.6px black;
+    font-weight: bold;
+}
+h4{
+      font-size: 30px;
+    line-height: 1.2;
+    -webkit-text-stroke: 0.2px black;
+    font-weight: bold;
+}
+/* Este contenedor alinea el input y el botón en la misma fila */
+.contenedor-formulario {
+    display: flex;
+    flex-direction: row;       /* Los fuerza a ponerse uno al lado del otro */
+    align-items: center;       /* Los centra verticalmente entre sí */
+    justify-content: center;   /* Los centra en medio del cuadro amarillo */
+    gap: 12px;                 /* Separa el input del botón para que no se peguen */
+    width: 65%;                /* Controla el ancho del conjunto dentro del cuadro */
+}
+
+/* Ajustes para que tu input combine con el botón */
+.input {
+    flex: 1;                   /* Hace que el input ocupe el espacio restante */
+    height: 42px;              
+    border: none;
+    outline: none;
+    border-radius: 12px;       
+    padding: 0 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+/* Diseño elegante para el botón Retirar */
+.btn-retirar {
+    height: 42px;              /* Misma altura del input para simetría perfecta */
+    padding: 0 15px;           
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff;            /* Texto blanco */
+    border: none;
+    border-radius: 12px;       /* Mismo redondeado que el input */
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-retirar:hover {
+    background-color: #252525; /* Cambia ligeramente de color al pasar el mouse */
+}
+
+.total-principal{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(50vh - 60px);
+}
+.total{
+      background-color: #cbee05; 
+    width: 700px;             
+    height: auto;   
+    border: 1px solid #161615;       
+    border-radius: 40px;        
+    box-shadow: 0 15px 30px rgba(130, 110, 0, 1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-recargar {
+    height: 42px;              /* Misma altura del input para simetría perfecta */
+    padding: 0 15px;           
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff;            /* Texto blanco */
+    border: none;
+    border-radius: 12px;       /* Mismo redondeado que el input */
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-recargar:hover {
+    background-color: #252525; /* Cambia ligeramente de color al pasar el mouse */
+}

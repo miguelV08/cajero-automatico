@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "js/banco.js"></script>
+</head>
+<body>
+
+    <header class="cuadro">
+    <h1>Cajero banco</h1>
+    <img src="https://companieslogo.com/img/orig/CIB.D-4e55a284.png?t=1720244491" alt="logo bancolombia" class="logo">
+     </header>
+   
+     <main class="cuadro-principal">
+     <div class ="cuadro-centro">
+        <h6>Bienvenidos a Bancolombia</h6>
+        <div class="contenedor-formulario">
+        <p>ingrese el valor de su retiro</p>
+    <input type="number" name="numberOne" class="input" id="valor" placeholder="$" />
+    <button class="btn-retirar" id="retiro" onclick="retiro();">
+        retirar
+    </button>
+    <button class="btn-recargar" id="recarga" onclick="recarga()">
+        nueva transaccion
+    </button>
+    </div>
+     </div>
+     </main>
+
+     <main class="total-principal">
+       <div class="total" id="total">
+            <h3>total de billetes</h3>
+        </div>
+    </main>
+</body>
+</html>
